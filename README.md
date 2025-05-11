@@ -18,7 +18,7 @@ This project requires the [igraph](https://igraph.org/) C library. Please ensure
 ```bash
 g++ main.cpp -std=c++11 -ligraph -o main.out
 
-##Execution
+## Execution
 
 ```bash
 ./main.out N network.txt seeds.txt
