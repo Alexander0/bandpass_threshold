@@ -17,7 +17,7 @@ This project requires the [igraph](https://igraph.org/) C library. Please ensure
 
 ```bash
 g++ main.cpp -std=c++11 -ligraph -o main.out
-
+```
 ## Execution
 
 ```bash
@@ -26,3 +26,4 @@ g++ main.cpp -std=c++11 -ligraph -o main.out
 - `N` — Number of nodes in the network
 - `network.txt` — File containing the network edges
 - `seeds.txt` — File listing the initial seed nodes for activation
+```
